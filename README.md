@@ -10,9 +10,9 @@ const FILTER_VALIDATE_PHONE = [
 ```
 ### FILTER_VALIDATE_SEX
 This constant allowed only letters for gender recognition.
-- F: female
-- M: male
-- D: divers
+- `F`: female
+- `M`: male
+- `D`: divers
 ```php
 const FILTER_VALIDATE_SEX = [
     'filter' => FILTER_VALIDATE_REGEXP,
@@ -21,8 +21,8 @@ const FILTER_VALIDATE_SEX = [
 ```
 ### FILTER_VALIDATE_STATUS
 This constant allows to assign only letters for a status
-- Y: yes
-- N: no
+- `Y`: yes
+- `N`: no
 ```php
 const FILTER_VALIDATE_STATUS = [
     'filter' => FILTER_VALIDATE_REGEXP,
@@ -31,7 +31,7 @@ const FILTER_VALIDATE_STATUS = [
 ```
 ### FILTER_VALIDATE_GUID
 This constant only lets through GUID's
-- 4f74d85c-2f9f-4d5a-9bb8-29ed234457a0
+- `4f74d85c-2f9f-4d5a-9bb8-29ed234457a0`
 ```php
 const FILTER_VALIDATE_GUID = [
     'filter' => FILTER_VALIDATE_REGEXP,
@@ -39,7 +39,8 @@ const FILTER_VALIDATE_GUID = [
 ];
 ```
 ### FILTER_VALIDATE_URL_WITH_UMLAUTS
-This constant allows URLs with umlauts
+This constant allows URLs with umlauts.  
+_Attention, umlauts are generally not permitted in URLs, but they can still occur._
 ```php
 const FILTER_VALIDATE_URL_WITH_UMLAUTS = [
     'filter' => FILTER_VALIDATE_REGEXP,
