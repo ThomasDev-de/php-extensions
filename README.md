@@ -9,7 +9,7 @@
         + [FILTER_VALIDATE_URL_WITH_UMLAUTS](#filter-validate-url-with-umlauts)
         + [FILTER_VALIDATE_ARRAY_INT](#filter-validate-array-int)
         + [FILTER_VALIDATE_ARRAY_STRING](#filter-validate-array-string)
-        + [FILTER_VALIDATE_DATE](#filter-validate-date)
+        + [FILTER_VALIDATE_DATE](#filter_validate_date)
 
 ## Constants
 ### FILTER_VALIDATE_PHONE
