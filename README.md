@@ -2,13 +2,13 @@
 
 - [php-extensions](#php-extensions)
     * [Constants](#constants)
-        + [FILTER_VALIDATE_PHONE](#filter-validate-phone)
-        + [FILTER_VALIDATE_SEX](#filter-validate-sex)
-        + [FILTER_VALIDATE_STATUS](#filter-validate-status)
-        + [FILTER_VALIDATE_GUID](#filter-validate-guid)
-        + [FILTER_VALIDATE_URL_WITH_UMLAUTS](#filter-validate-url-with-umlauts)
-        + [FILTER_VALIDATE_ARRAY_INT](#filter-validate-array-int)
-        + [FILTER_VALIDATE_ARRAY_STRING](#filter-validate-array-string)
+        + [FILTER_VALIDATE_PHONE](#filter_validate_phone)
+        + [FILTER_VALIDATE_SEX](#filter_validate_sex)
+        + [FILTER_VALIDATE_STATUS](#filter_validate_status)
+        + [FILTER_VALIDATE_GUID](#filter_validate_guid)
+        + [FILTER_VALIDATE_URL_WITH_UMLAUTS](#filter_validate_url_with_umlauts)
+        + [FILTER_VALIDATE_ARRAY_INT](#filter_validate_array_int)
+        + [FILTER_VALIDATE_ARRAY_STRING](#filter_validate_array_string)
         + [FILTER_VALIDATE_DATE](#filter_validate_date)
 
 ## Constants
